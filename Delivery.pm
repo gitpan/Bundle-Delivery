@@ -1,6 +1,6 @@
 package Bundle::Delivery;
 
-$VERSION = '0.02';
+$VERSION = '0.03';
 
 1;
 
@@ -34,6 +34,8 @@ Date::Calc - useful date manipulation
 
 Date::Simple - useful date presentation and comparison
 
+Email::Send - creates and sends email messages in a nice simple way
+
 Email::Valid - checks email addresses for well-formedness and MX availability
 
 File::Headerinfo - reads media file headers to extract dimensions and duration
@@ -44,13 +46,11 @@ HTML::Entities - provides encoding and decoding of html entities, and a useful l
 
 HTML::TagFilter - a fine-grained rule-based remover of html tags
 
-Imager - handles all image-manipulation. make sure you have libgif, libjpeg and libpng first.
+Imager - handles all image-manipulation. make sure you have libgif, libjpeg and libpng in sensible places first.
 
-Mail::Sendmail - creates and sends email messages using local or remote smtp
+Template - he's a big boy but he's clever.
 
-Template - the huge but lovely Template Toolkit 2
-
-Term::Prompt - nice interface for command-line interrogation. Only used for the installer here.
+Term::Prompt - nice interface for command-line interrogation. Only used for the install script here.
 
 Text::CSV - reads and manipulates CSV data
 
