@@ -1,6 +1,6 @@
 package Bundle::Delivery;
 
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 1;
 
@@ -26,7 +26,7 @@ Apache::Constants - Constants useful in dealing with apache requests
 
 Apache::Request - Generate compiler and linker flags for libapreq
 
-Apache::Util - Interface to fast Apache C util functions
+Apache::Util - Interface to fast Apache C util functions (used here for escaping, mostly)
 
 Class::DBI::Factory - Application skeleton for Delivery.
 
@@ -42,15 +42,15 @@ File::NCopy - deep-copies directories. only used by installer in delivery
 
 HTML::Entities - provides encoding and decoding of html entities, and a useful list
 
-HTML::Tagfilter - a fine-grained rule-based remover of html tags
+HTML::TagFilter - a fine-grained rule-based remover of html tags
 
 Imager - handles all image-manipulation. make sure you have libgif, libjpeg and libpng first.
 
 Mail::Sendmail - creates and sends email messages using local or remote smtp
 
-Template - the huge but lovely Template Toolkit
+Template - the huge but lovely Template Toolkit 2
 
-Term::Prompt - nice interface for command-line interrogation. only used for the installer here.
+Term::Prompt - nice interface for command-line interrogation. Only used for the installer here.
 
 Text::CSV - reads and manipulates CSV data
 
